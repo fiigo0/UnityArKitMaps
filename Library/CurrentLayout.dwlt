@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ARMapSceneContainer/CityMap/CityMesh
+    - Assets/ARMapSceneContainer
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/ARMapSceneContainer/CityMap/CityMesh
+  - Assets/ARMapSceneContainer
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/alexdiaz/Documents/Innovation/AR/Projects/ARMap
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 98.00049}
-    m_SelectedIDs: 2a310000
-    m_LastClickedID: 12586
-    m_ExpandedIDs: 00000000762c0000102e0000302e00000630000078300000aa310000a633000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 12.996826}
+    m_SelectedIDs: 78300000
+    m_LastClickedID: 12408
+    m_ExpandedIDs: 00000000762c0000302e00000630000078300000aa3100002e320000a6330000b233000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: 5a370000
+    m_LastClickedID: 14170
+    m_ExpandedIDs: 2caaffffe0aaffff30aeffff26e0ffff00e1ffff50e2ffffcae9ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
