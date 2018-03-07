@@ -14,4 +14,5 @@ MonoBehaviour:
   Factories:
   - {fileID: 11400000, guid: e682ea85ae3d149d5825aac4c5f40be2, type: 2}
   - {fileID: 11400000, guid: 24f7f6dc9182b4986bf255f7315a4686, type: 2}
+  - {fileID: 11400000, guid: 9752081f962304f4589eb76ae8f8a38c, type: 2}
   _loadingTexture: {fileID: 0}
