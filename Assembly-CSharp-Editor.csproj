@@ -51,6 +51,62 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\BboxToGeoCoordinateBoundsConverterTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\BearingFilterTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\CanonicalTileIdTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\CompressionTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\DirectionResourceTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\DirectionsTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\FileSourceTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\ForwardGeocodeResourceTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\GeocoderTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\GeoCoordinateBoundsTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\GeoCoordinateTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\LonLatToGeoCoordinateConverterTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\MapMatcherTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\MapTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\PolylineToGeoCoordinateListConverterTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\PolylineUtilsTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\ReverseGeocodeResourceTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\TileCoverTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\TileResourceTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\TileTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\TokenTest.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\Utils.cs" />
+     <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Tests\UnitTests\Editor\VectorTileTest.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\AddMonoBehavioursModifierDrawer.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\Build\Mapbox_Android_prebuild_checks.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\Build\Mapbox_iOS_build.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\ClearMbTilesCache.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\FactoryDrawer.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\FactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\FeatureBehaviourEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\FlatSphereTerrainFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\FlatTerrainFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\GeocodeAttributeDrawer.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\GeocodeAttributeSearchWindow.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\LayerModifierEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\LowPolyTerrainFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\MapboxConfigurationWindow.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\MapImageFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\MapVisualizerEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\MaterialModifierEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\MergedModifierStackEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\ModifierStackEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\NodeEditor\Connection.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\NodeEditor\ConnectionPoint.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\NodeEditor\EditorZoomArea.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\NodeEditor\Node.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\NodeEditor\NodeBasedEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\ScriptableCreatorWindow.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\StyleOptimizedVectorTileFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\StyleSearchAttributeDrawer.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\StyleSearchWindow.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\TerrainFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\TerrainWithSideWallsFactoryEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\Tests\DuplicateAndroidLibraries.cs.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\VectorLayerVisualizerEditor.cs" />
+     <Compile Include="Assets\Mapbox\Unity\Editor\VectorTileFactoryEditor.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Examples\UnityParticlePainter\HSVPicker\Editor\BoxSliderEditor.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\ARResourcesJSON.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
@@ -149,6 +205,12 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/alexdiaz/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.IO.Compression">
+ <HintPath>/Users/alexdiaz/Documents/Innovation/AR/Projects/ARMap/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.Json">
+ <HintPath>/Users/alexdiaz/Documents/Innovation/AR/Projects/ARMap/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
