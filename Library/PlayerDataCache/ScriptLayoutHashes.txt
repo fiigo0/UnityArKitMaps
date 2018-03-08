@@ -6,6 +6,7 @@ SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
 12096ddf91bc99172a48b0419861fd00 Assembly-CSharp.dll:.PointCloudParticleExample
+952e18d8ea2502d98678aab3624db87e Assembly-CSharp.dll:Mapbox.Unity.Map.MapController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -426,4 +427,4 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-952e18d8ea2502d98678aab3624db87e Assembly-CSharp.dll:Mapbox.Unity.Map.MapController
+ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:.PlayerControllerTest
