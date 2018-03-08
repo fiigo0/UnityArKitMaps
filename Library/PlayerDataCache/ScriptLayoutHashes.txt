@@ -2,6 +2,7 @@ iOS
 SceneListBegin?
 Assets/_Scenes/ARMapScene.unity
 SceneListEnd?
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FBConnectionManager
 109bc24ceb27d134c3dca242e524fca6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Components.VertexDebugger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARKitControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Examples.HighlightFeature
@@ -103,6 +104,7 @@ f4386a940b0c945b42ba5098c696420b Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 00c6524565e02b69a42dbf29b719677d Assembly-CSharp.dll:Mapbox.Examples.SpawnOnMap
 7a569204f9d29c3d307c150aa038ee30 Assembly-CSharp.dll:.UnityARCameraManager
 9ed622f1ea1aeb5f5018ad143a2009df Assembly-CSharp.dll:.UnityARFaceMeshManager
+05524b8f659e7bfe5756d1335fec24ba Firebase.Platform.dll:Firebase.Platform.FirebaseMonoBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Map.GlobeTileProvider
 2aa04874990b59dd49387aff97c37ed1 Assembly-CSharp.dll:.VideoFormatsExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.Utilities.Runnable
@@ -316,6 +318,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 3c131bc1fcd62a99173616f1006723eb Assembly-CSharp.dll:.ColorImage
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modiiers.DisableMeshRendererModifier
 ad1b43a81bd79dbc7a8f346c979794d8 Assembly-CSharp.dll:Mapbox.Examples.RotateWithLocationProvider
+ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:.PlayerControllerTest
 753b51aff92b02784e731d348f50b108 Assembly-CSharp.dll:.VideoFormatButton
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.PolygonMeshModifier
 aa4813d9e2a247785fb223838ed21c87 Assembly-CSharp.dll:Mapbox.Examples.Playground.DirectionsExample
@@ -427,4 +430,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
 658bf8334790d2ed35310347cc5219d9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:.PlayerControllerTest
