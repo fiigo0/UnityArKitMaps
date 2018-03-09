@@ -44,10 +44,10 @@ public class PlayerControllerTest : MonoBehaviour,FBConnectionManager.IFirebaseC
 	}
 
 
-	public void FailResponse(string response){
+	public void FailResponse(string response, string node){
 	
 	}
-	public void SuccessResponse(DataSnapshot snapshot){
+	public void SuccessResponse(DataSnapshot snapshot, string node){
 		string json = snapshot.GetRawJsonValue();
 		print (json);
 		DroneLocation droneLoc = DroneLocation.CreateFromJSON (json);	

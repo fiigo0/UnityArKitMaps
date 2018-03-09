@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 291
     height: 426
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ARMapSceneContainer/Prefabs
+    - Assets/ARMapSceneContainer/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/ARMapSceneContainer/Prefabs
+  - Assets/ARMapSceneContainer/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/alexdiaz/Documents/Innovation/AR/Projects/ARMap
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a420000
-    m_LastClickedID: 16970
-    m_ExpandedIDs: 000000009a350000d23600004e37000064370000723700003e390000e0390000043b0000323b0000763b0000a03d0000ac3d000000ca9a3bffffff7f
+    m_SelectedIDs: 6a350000
+    m_LastClickedID: 13674
+    m_ExpandedIDs: 00000000082d0000402e0000bc2e0000d22e0000e02e0000b4300000583100007e320000ac320000f03200002a3500003635000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a350000d23600004e37000064370000723700003e390000e0390000043b0000323b0000763b0000a03d0000ac3d0000
+    m_ExpandedIDs: 00000000082d0000402e0000bc2e0000d22e0000e02e0000b4300000583100007e320000ac320000f03200002a35000036350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,21 +425,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: daeffdff
-    m_LastClickedInstanceID: -135206
+    m_SelectedInstanceIDs: 92360000
+    m_LastClickedInstanceID: 13970
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000626b00003a6dffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: TrailSphere
-      m_OriginalName: TrailSphere
+      m_Name: Coordinate
+      m_OriginalName: Coordinate
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -37574
+      m_UserData: 19716
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64a2fdff
-    m_LastClickedID: -155036
-    m_ExpandedIDs: 64f2ffff000000003e3e0000de3e0000
+    m_SelectedIDs: 92360000
+    m_LastClickedID: 13970
+    m_ExpandedIDs: 98fbffff0000000032370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,8 +565,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 292
-    y: 94
+    x: 2
+    y: 19
     width: 644
     height: 405
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -604,7 +604,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 1, z: 0, w: 0}
     speed: 2
-    m_Value: {x: 0, y: -0.99999994, z: 0, w: 0}
+    m_Value: {x: 0, y: 1, z: 0, w: 0}
   m_Size:
     m_Target: -0.34772307
     speed: 2
@@ -677,7 +677,7 @@ MonoBehaviour:
       y: 17
       width: 644
       height: 388
-    m_Scale: {x: 2, y: 2}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 322, y: 194}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -685,12 +685,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -161
-      y: -97
-      width: 322
-      height: 194
+      x: -322
+      y: -194
+      width: 644
+      height: 388
     m_MinimalGUI: 1
-  m_defaultScale: 2
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 1288, y: 810}

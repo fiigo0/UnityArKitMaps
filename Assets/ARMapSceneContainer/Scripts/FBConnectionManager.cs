@@ -31,13 +31,13 @@ public class FBConnectionManager:MonoBehaviour {
 		{
 			if (e2.DatabaseError != null)
 			{
-				callback.FailResponse(e2.DatabaseError.Message);
+				callback.FailResponse(e2.DatabaseError.Message, reference);
 				Debug.LogError(e2.DatabaseError.Message);
 				return;
 			}
 			if (e2.Snapshot != null && e2.Snapshot.ChildrenCount > 0)
 			{
-				callback.SuccessResponse(e2.Snapshot);
+				callback.SuccessResponse(e2.Snapshot, reference);
 			}
 		};
 
@@ -65,8 +65,8 @@ public class FBConnectionManager:MonoBehaviour {
 
 	public interface IFirebaseCallback
 	{
-		void FailResponse(string response);
-		void SuccessResponse(DataSnapshot snapshot);
+		void FailResponse(string response, string node);
+		void SuccessResponse(DataSnapshot snapshot, string node);
 	}
 
 }

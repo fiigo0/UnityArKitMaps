@@ -51,9 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ARMapSceneContainer\ObjectModel\Coordinate.cs" />
+     <Compile Include="Assets\ARMapSceneContainer\ObjectModel\DroneData.cs" />
      <Compile Include="Assets\ARMapSceneContainer\ObjectModel\DroneLocation.cs" />
+     <Compile Include="Assets\ARMapSceneContainer\ObjectModel\DroneMissionData.cs" />
+     <Compile Include="Assets\ARMapSceneContainer\Scripts\Coorinate.cs" />
      <Compile Include="Assets\ARMapSceneContainer\Scripts\DroneController.cs" />
      <Compile Include="Assets\ARMapSceneContainer\Scripts\FBConnectionManager.cs" />
+     <Compile Include="Assets\ARMapSceneContainer\Scripts\JSONHelper.cs" />
      <Compile Include="Assets\ARMapSceneContainer\Scripts\MapController.cs" />
      <Compile Include="Assets\ARMapSceneContainer\Scripts\TrailController.cs" />
      <Compile Include="Assets\Mapbox\Core\mapbox-sdk-cs\Directions\DirectionResource.cs" />
