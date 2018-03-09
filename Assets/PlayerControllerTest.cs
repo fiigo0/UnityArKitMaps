@@ -5,7 +5,6 @@ using Mapbox.Unity.Location;
 using Mapbox.Unity.Map;
 using Mapbox.Unity.Utilities;
 using Firebase.Database;
-//using Newtonsoft.Json;
 
 public class PlayerControllerTest : MonoBehaviour,FBConnectionManager.IFirebaseCallback {
 
