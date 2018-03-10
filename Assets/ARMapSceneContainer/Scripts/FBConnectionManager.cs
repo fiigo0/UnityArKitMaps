@@ -22,6 +22,22 @@ public class FBConnectionManager:MonoBehaviour {
 		}
 	}
 
+
+	public static void FirebaseGetDataSync(string reference,  IFirebaseCallback callback){
+
+		InitializeInstance ();
+		FirebaseDatabase.DefaultInstance
+			.GetReference (reference)
+			.GetValueAsync ()
+			.ContinueWith ( task => {
+				if (task.IsFaulted)	{
+				
+			}else if (task.IsCompleted){					 
+					callback.SuccessResponse(task.Result,reference);
+			}
+		});
+	}
+
 	public static void FirebaseConsult(string reference, IFirebaseCallback callback)
 	{
 		InitializeInstance();
@@ -62,6 +78,9 @@ public class FBConnectionManager:MonoBehaviour {
 				}            
 			});
 	}
+
+
+
 
 	public interface IFirebaseCallback
 	{

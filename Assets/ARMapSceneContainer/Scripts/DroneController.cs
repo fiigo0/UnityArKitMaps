@@ -29,8 +29,6 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 	void Start () {
 
 		drone = GameObject.FindGameObjectWithTag ("drone");
-		print ("Map : " + _map.isActiveAndEnabled);
-
 		FBConnectionManager.FirebaseConsult ("DroneData", this);
 		FBConnectionManager.FirebaseConsult ("DroneMissionData/waypoints", this);
 	}
@@ -46,7 +44,6 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 
 				Mapbox.Utils.Vector2d mapPosition = _map.CenterLatitudeLongitude;
 				dronePositionString = string.Format("{0},{1}", mapPosition.x,mapPosition.y);
-				print ("initial positioning on the center of the map : " + dronePositionString);
 			}
 
 			//37.792159, -122.401723
@@ -80,7 +77,6 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 		if (string.Equals (node, "DroneData")) {
 			droneData = DroneData.CreateFromJSON (json);	
 			dronePositionString = droneData.coordinates;
-			print ("DroneData : " + dronePositionString);		
 			if (_map.isActiveAndEnabled) {
 				addTrail ();
 			}
@@ -102,9 +98,6 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 	public void addWaypoints(List<Coordinate> coordinates){
 		for (int i = 0; i < coordinates.Count; i++) {
 			Coordinate coord = coordinates [i];
-			print (coord.latitude);
-			print (coord.longitude);
-
 			var pos = string.Format("{0},{1}", coord.latitude,coord.longitude);
 			Mapbox.Utils.Vector2d pinPosition = Conversions.StringToLatLon (pos);
 
