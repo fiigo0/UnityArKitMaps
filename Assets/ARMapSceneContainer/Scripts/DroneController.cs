@@ -13,6 +13,7 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 	public AbstractMap _map;
 	[SerializeField]
 	public GameObject trail;
+	public GameObject waypointObject;
 	private GameObject drone;
 	private DroneData droneData;
 	private DroneMissionData missionData;
@@ -84,10 +85,36 @@ public class DroneController : MonoBehaviour,FBConnectionManager.IFirebaseCallba
 				addTrail ();
 			}
 		} else if (string.Equals (node, "DroneMissionData/waypoints")) {
+			GameObject[] pins = GameObject.FindGameObjectsWithTag ("waypoint");
+
+			for(var i = 0 ; i < pins.Length ; i ++)
+			{
+				Destroy(pins[i]);
+			}
+
 			print ("DroneMissionData/waypoints : " + json);
-			var waypointCoordinates = JSONHelper.SplitJsonStringCoordenates (json);
-			print (waypointCoordinates [0]);
+			List<Coordinate> waypointCoordinates = JSONHelper.SplitJsonStringCoordenates (json);
+			print ("Count : " + waypointCoordinates.Count);
+			addWaypoints (waypointCoordinates);
 		}
+	}
+
+	public void addWaypoints(List<Coordinate> coordinates){
+		for (int i = 0; i < coordinates.Count; i++) {
+			Coordinate coord = coordinates [i];
+			print (coord.latitude);
+			print (coord.longitude);
+
+			var pos = string.Format("{0},{1}", coord.latitude,coord.longitude);
+			Mapbox.Utils.Vector2d pinPosition = Conversions.StringToLatLon (pos);
+
+			var y = drone.transform.position.y;
+			var waypoint = Instantiate(waypointObject, new Vector3(0,y,0), Quaternion.identity);
+//			waypoint.transform.Rotate(new Vector3(90,0,0));
+			waypoint.transform.MoveToGeocoordinate (pinPosition, _map.CenterMercator, _map.WorldRelativeScale);
+
+		}
+
 	}
 		
 }

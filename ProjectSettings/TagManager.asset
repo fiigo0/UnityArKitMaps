@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - drone
+  - waypoint
   layers:
   - Default
   - TransparentFX

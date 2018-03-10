@@ -26,6 +26,7 @@ df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 74602f47ac5939fc6675c58c724452bc Assembly-CSharp.dll:Mapbox.Unity.Map.RangeAroundTransformTileProvider
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainModifier
 516e5cc4558edc3eaf07fa540ce485bf Assembly-CSharp.dll:.ColorPickerTester
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DroneMissionData
 2b3291da89200462b2545a02cbc12439 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.VectorTileFactory
 9d094b02b16a0bb26c090239a64168b8 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.PrefabModifier
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -305,6 +306,7 @@ b15500bf1b76bbde5922a3b83fc39627 Assembly-CSharp.dll:Mapbox.Examples.Playground.
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Filters.FilterBase
+ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:.TrailController
 9ffb7700875db16ad444cf26872589b9 Assembly-CSharp.dll:.HexColorField
 bf09ee2e5fc51800c24bc9ad47088efd Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.AddMonoBehavioursModifier
 16ae33ee0fbf8362ac99a6fb3e017cb6 Assembly-CSharp.dll:.FocusSquare
@@ -348,6 +350,7 @@ ab06b6058fcbbcaa74a328639dc7d3e3 Assembly-CSharp.dll:Mapbox.Examples.ImmediatePo
 c93728c2de7be1bdc64a28d1233525e7 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainRaycastModifier
 2ba36b6a81a4caef27f07fa7511b83ea Assembly-CSharp.dll:UnityEngine.XR.iOS.ARKitFaceTrackingRemoteConnection
 e4cc7f2dcfd4169240e3f76923ccc343 Assembly-CSharp.dll:Mapbox.Examples.QuadTreeCameraMovement
+ba47f03d2c2f06597d76d9654d884a88 Assembly-CSharp.dll:.DroneController
 f4322fc0f64b38fe7809a75cfdc78866 Assembly-CSharp.dll:Mapbox.Examples.Voxels.VoxelTile
 65ce61bce6a9cc1cdde99a2eb764fefc Assembly-CSharp.dll:Mapbox.Examples.ObjectInspectorModifier
 9568182575bc5728d979a4d8099e4b0a Assembly-CSharp.dll:Mapbox.Unity.Location.TransformLocationProvider
